@@ -1,6 +1,6 @@
 # PyroDB
 
-A **fast, encrypted, file-based NoSQL database engine** for Python — zero SQL, minimal syntax, production-ready internals.
+A **fast, encrypted, file-based NoSQL database engine** for Python.. zero SQL, minimal syntax, production-ready internals.
 
 ```python
 from pyro_db import Database
@@ -86,21 +86,21 @@ PyroDB was designed around one idea: **a database you can understand end-to-end*
 
 ## 3. Installation
 
-**No server. No configuration files. No system dependencies.**
+Basic install:
 
 ```bash
-pip install pyro_db
+pip install git+https://github.com/Fidelissimus/pyro_db.git
 ```
 
-For encryption support:
+With encryption support:
 
 ```bash
-pip install pyro_db[encryption]
+pip install "pyro_db[encryption] @ git+https://github.com/Fidelissimus/pyro_db.git"
 # or separately:
 pip install cryptography
 ```
 
-Python ≥ 3.10 required.
+Python 3.10+ required.
 
 ---
 
